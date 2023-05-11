@@ -1,0 +1,133 @@
+.container00 {
+  &.container05 {
+    background-image: url(../../images/personagens/l.png);
+  }
+  &.container06 {
+    background-image: url(../../images/personagens/annie1.jpg);
+  }
+  &.carrossel01 {
+    background-image: url(../../images/personagens/vaios2.jpg);
+  }
+  &.carrossel02 {
+    background-image: url(../../images/personagens/dr.mundo.jpg);
+  }
+  &.carrossel03 {
+    background-image: url(../../images/personagens/jix2.jpg);
+  }
+  &.carrossel04 {
+    background-image: url(../../images/personagens/3.jpg);
+  }
+  &.container07 {
+    background-image: url(../../images/personagens/tristana.jpg);
+  }
+}
+
+.titleLanes {
+  font-size: 90px;
+  font-family: "Cinzel", sans-serif;
+  font-weight: 514px;
+}
+
+.titleContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+  color: #fde31db8;
+}
+.numbers {
+  background-color: black;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titleNumb {
+  font-size: 90px;
+}
+.subTitleNumb {
+  font-size: 20px;
+}
+.LanesDesc {
+  font-size: 22px;
+  width: 640px;
+  line-height: 50px;
+}
+
+.containerLanesDesc {
+  display: grid;
+  height: 90vh;
+  align-items: center;
+  justify-content: left;
+}
+
+#overViewPosition {
+  width: 500px;
+  margin-left: 13%;
+  padding-top: 23%;
+}
+.carroselSlide {
+  img {
+    height: 100vh;
+  }
+}
+.carrouselText {
+  background-color: black;
+}
+
+.button {
+  border: 2px solid white;
+  margin-right: 10px;
+}
+
+// MEdia query //
+
+@media (max-width: 768px) {
+  .numbers {
+    .titleNumb {
+      font-size: 80px;
+    }
+    .subTitleNumb {
+      font-size: 18px;
+    }
+  }
+
+  .LanesDesc {
+    width: auto;
+    width: 640px;
+  }
+
+  #overViewPosition {
+    padding-top: 35%;
+  }
+}
+
+@media (max-width: 575px) {
+  .numbers {
+    height: 60vh;
+  }
+
+  .LanesDesc {
+    width: auto;
+    width: 640px;
+  }
+
+  #overViewPosition {
+    margin-left: auto;
+    width: auto;
+  }
+}
+
+@media (max-width: 375px) {
+  .titleLanes {
+    font-size: 50px;
+  }
+  .LanesDesc {
+    font-size: 18px;
+    line-height: auto;
+  }
+  .subTitleLanes {
+    font-size: 16px;
+  }
+}
